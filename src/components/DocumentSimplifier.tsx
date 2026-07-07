@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { 
   FileText, 
-  ArrowRight, 
   HelpCircle, 
   Volume2, 
   VolumeX, 
@@ -10,6 +9,7 @@ import {
   Calendar,
   ListTodo
 } from 'lucide-react';
+
 import { useGenAI } from '../hooks/useGenAI';
 import { useSpeech } from '../hooks/useSpeech';
 import { isSafeText } from '../utils/validation';

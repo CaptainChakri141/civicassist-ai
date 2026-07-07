@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Compass, RefreshCw, Clock, CheckCircle2, ShieldCheck, MapPin, Building } from 'lucide-react';
+import { Search, Compass, RefreshCw, Clock, CheckCircle2, MapPin, Building } from 'lucide-react';
+
 import type { ReportedIssue } from './IssueReporter';
 import { Card } from './UI/Card';
 import { Button } from './UI/Button';

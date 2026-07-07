@@ -1,6 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import React from 'react';
+
+
 import { AIChat } from '../components/AIChat';
 
 // Mock Web Speech APIs to avoid errors in JSDOM environment

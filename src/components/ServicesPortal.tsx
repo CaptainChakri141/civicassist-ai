@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Filter, ShieldCheck, ShieldAlert, CheckSquare, Printer, Info } from 'lucide-react';
+import { Search, Filter, ShieldCheck, ShieldAlert, Printer, Info } from 'lucide-react';
+
 import { servicesData } from '../utils/servicesData';
 import type { GovernmentService } from '../utils/servicesData';
 import { Card } from './UI/Card';
@@ -135,7 +136,7 @@ export const ServicesPortal: React.FC<ServicesPortalProps> = ({
   const [age, setAge] = useState<string>('');
   const [income, setIncome] = useState<string>('');
   const [isHomeowner, setIsHomeowner] = useState<boolean>(false);
-  const [isEmployed, setIsEmployed] = useState<boolean>(true);
+
   
   // Results states
   const [hasCalculated, setHasCalculated] = useState(false);
@@ -154,8 +155,8 @@ export const ServicesPortal: React.FC<ServicesPortalProps> = ({
         setAge('');
         setIncome('');
         setIsHomeowner(false);
-        setIsEmployed(true);
         setHasCalculated(false);
+
         setFailures([]);
         setDynamicChecklist([]);
         setCheckedDocs({});
@@ -186,8 +187,8 @@ export const ServicesPortal: React.FC<ServicesPortalProps> = ({
     setAge('');
     setIncome('');
     setIsHomeowner(false);
-    setIsEmployed(true);
     setHasCalculated(false);
+
     setFailures([]);
     setDynamicChecklist([]);
     setCheckedDocs({});

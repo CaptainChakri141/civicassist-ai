@@ -11,7 +11,7 @@ import {
   ShieldAlert
 } from 'lucide-react';
 import { useGenAI } from '../hooks/useGenAI';
-import type { ChatMessage } from '../hooks/useGenAI';
+
 import { useSpeech } from '../hooks/useSpeech';
 import { isSafeText } from '../utils/validation';
 import { Button } from './UI/Button';

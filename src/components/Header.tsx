@@ -4,13 +4,13 @@ import {
   Moon, 
   Eye, 
   Languages, 
-  Type, 
   MessageSquare, 
   Search, 
   AlertTriangle, 
   FileText,
   Accessibility
 } from 'lucide-react';
+
 import type { AccessibilityTheme, FontSizeScale } from '../hooks/useAccessibility';
 
 interface HeaderProps {

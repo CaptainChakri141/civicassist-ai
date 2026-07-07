@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { generateAIResponse, simplifyPolicyText } from '../utils/aiEngine';
-import type { AIResult } from '../utils/aiEngine';
+
+
 
 
 export interface ChatMessage {

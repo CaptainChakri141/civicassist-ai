@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import { 
-  AlertTriangle, 
   MapPin, 
   Mail, 
   Phone, 
   Upload, 
   Wand2, 
   CheckCircle2, 
-  ShieldAlert,
-  Loader
+  ShieldAlert
 } from 'lucide-react';
+
 import { Button } from './UI/Button';
 import { Card } from './UI/Card';
 import { autoCategorizeIssue } from '../utils/aiEngine';
