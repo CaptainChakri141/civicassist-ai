@@ -59,7 +59,7 @@ function getT(lang: string, key: string): string {
 export interface AIResult {
   text: string;
   source: 'local' | 'gemini';
-  data?: unknown;
+  data?: any;
 }
 
 /**

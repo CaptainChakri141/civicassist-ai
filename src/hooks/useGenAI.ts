@@ -9,7 +9,8 @@ export interface ChatMessage {
   content: string;
   timestamp: Date;
   source?: 'local' | 'gemini';
-  data?: unknown;
+  data?: any;
+
 }
 
 export function useGenAI() {
